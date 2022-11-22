@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@main
       - uses: akhileshns/heroku-deploy@master # This is the action
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "subcc" #Must be unique in Heroku
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_api_key: 5a5784db-dc54-4e2c-b1c9-50fc38c4ba67
+          heroku_app_name: "jpc22subconverter"
+          heroku_email: 1998jiangpengcheng@outlook.com
           usedocker: true
